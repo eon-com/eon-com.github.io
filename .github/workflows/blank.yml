@@ -14,6 +14,8 @@ jobs:
       # build meta.json file for further use within the webclient
       # magic happends in ci/build.sh
     - name: create_json_stats_file
+      env:
+        GITHUB_TOKEN:  ${{secrets.PUSH_KEY}}
       run: |
         chmod 700 ci/build.sh
         cd ci
