@@ -94,7 +94,8 @@ query {
 }"""
 
 def to_date(date_str):
-	return datetime.fromisoformat(date_str.replace("Z", "+00:00")).strftime("%Y-%m-%d %H:%M:%S %z")
+	return date_str
+	#return datetime.fromisoformat(date_str.replace("Z", "+00:00")).strftime("%Y-%m-%d %H:%M:%S %z")
 
 
 def main():
