@@ -19,3 +19,5 @@ jobs:
         cd ci
         ./build.sh
         
+    - name: Push changes
+      uses: ad-m/github-push-action@master
