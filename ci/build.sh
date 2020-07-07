@@ -18,3 +18,9 @@ python3 meta.py
 
 echo "collected meta data"
 cat meta.json
+
+echo "adding meta data to git"
+
+git config --local user.email "eon_action@github.com"
+git config --local user.name "EON GitHub Action"
+git commit -m "adding new meta data" -a
