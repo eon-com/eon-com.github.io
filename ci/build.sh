@@ -23,4 +23,5 @@ echo "adding meta data to git"
 
 git config --local user.email "eon_action@github.com"
 git config --local user.name "EON GitHub Action"
+git add meta.json
 git commit -m "adding new meta data" -a
