@@ -22,4 +22,5 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@stats
       with:
+        branch: "stats"
         github_token: ${{ secrets.PUSH_KEY }}
