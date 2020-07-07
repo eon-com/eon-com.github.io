@@ -25,4 +25,5 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         branch: "stats"
+        force: true
         github_token: ${{ secrets.PUSH_KEY }}
