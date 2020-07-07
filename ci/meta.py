@@ -1,2 +1,2 @@
-with open("meta.json") as meta:
+with open("meta.json","w+") as meta:
   meta.write("foo")
