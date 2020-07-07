@@ -171,7 +171,7 @@ def main():
         allStats.append(statsResult)
         print(statsResult)
 
-    with open("meta.json", 'w') as jsonStats:
+    with open("meta.json", 'w+') as jsonStats:
         jsonStats.write("[")
 
         for stat in allStats:
