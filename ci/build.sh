@@ -9,3 +9,6 @@ sudo apt install python3 -y
 
 echo "install python3-pip"
 sudo apt install python3-pip -y
+
+echo "install 'SchnüffelStück' dependencies"
+sudo pip3 install -r requirements.txt
