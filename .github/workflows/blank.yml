@@ -20,7 +20,7 @@ jobs:
         ./build.sh
         
     - name: Push changes
-      uses: ad-m/github-push-action@stats
+      uses: ad-m/github-push-action@master
       with:
         branch: "stats"
         github_token: ${{ secrets.PUSH_KEY }}
