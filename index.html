@@ -1,40 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8"/>
-		<title>OpenSource @ E.ON</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<style>
-			@font-face {
-				font-family: EONBrixSans;
-				font-weight: 900;
-				src: url("https://ui.eon.com/font-brixsans/1.0.0/EON_BrixSansWeb-Black.woff");
-			}
-			body {
-				font-family: EONBrixSans, Arial, sans-serif;
-				margin: 0;
-				min-height: 100vh;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-			}
-			h2 {
-				font-size: 3.2em;
-				font-weight: 900;
-				text-align: center;
-				color: #39393a;
-			}
-			hr {
-				height: 4px;
-				margin: 0;
-				border: none;
-				background: linear-gradient(90deg, #1ea2b1 0%, #1ea2b1 67%, #e3e000 67%, #e3e000 75%, #ea1b0a 75%, #ea1b0a 100%);
-			}
-		</style>
-	</head>
-	<body>
-		<hr/>
-		<h2>OpenSource @ E.ON <br/>&mdash; Coming Soon</h2>
-		<hr/>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Manage office spaces and maximum occupancy in a flexible and simple way.">
+    <meta name="author" content="E.ON SE">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="E.ON Open Source" /> <!-- website name -->
+	<meta property="og:site" content="https://github.com/eon-com/office-check-in" /> <!-- website link -->
+	<meta property="og:title" content="Office Check In"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="Manage office spaces and maximum occupancy in a flexible and simple way." /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Webpage Title -->
+    <title>E.ON goes Open Source</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+    <!-- Favicon  -->
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/eon-logo-red.svg" alt="alternative"></a> 
+            
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href=https://github.com/eon-com target="_blank" class=">Visit GitHub <span class="sr-only">Visit us on GitHub</span></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container --> 
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h1>E.ON goes Open Source<br><span id="js-rotating">collaboration, motivation,community</span></h1>
+                        <p class="p-large">Let's promote an open culture and share our code and processes with the rest of the world as we want technology to benefit as many people as possible.</p>
+                        <a class="btn-solid-lg" href=https://github.com/eon-com target="_blank" class=">Visit GitHub <span class="sr-only">Visit us on GitHub</span></a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/header-laptop.png" alt="alternative">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+
+    <!-- Details 1 -->
+    <div class="basic-2 bg-dark-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-1.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>office-check-in</h2>
+                        <p class="p-large">Manage office spaces and maximum occupancy in a flexible and simple way.</p>
+                        <a class="btn-solid-reg" href=https://github.com/eon-com//office-check-in target="_blank" class=">Visit GitHub <span class="sr-only">Jump to repository</span></a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+
+    
+
+    <!-- Footer -->
+    <div class="footer bg-footerarea">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-col first">
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col second">
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col third">
+                        <p class="p-small">© E.ON SE 2020</p>
+                    </div> <!-- end of footer-col -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
 </html>
